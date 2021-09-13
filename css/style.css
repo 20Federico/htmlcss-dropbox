@@ -11,20 +11,9 @@ body{
     font-size: 16px;
 }
 
-header{
-
-}
-
-main{
-
-}
-
-footer{
-
-}
-
 h1{
     font-size: 77px;
+    padding-bottom: 30px;
 }
 h2{
     font-size: 40px;
@@ -36,6 +25,49 @@ h4, h5{
     font-size: 16px;
 }
 
+header{
+    background-color: #B4D0E7;
+    margin-top: 65px;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    background-color: white;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    line-height: 35px;
+    vertical-align: middle;
+    padding: 0 20px;
+}
+nav .float_left li:first-of-type a{
+    padding-left: 0;
+}
+nav li a img{
+    height: 30px;
+    vertical-align: middle;
+}
+nav .float_right li:last-of-type a{
+    background-color: #0061FF;
+    color: white;
+}
+
+main{
+    
+}
+
+footer{
+    
+}
 
 /**************************** id  ********************************/
 
@@ -93,4 +125,45 @@ h4, h5{
 
 .float_right{
     float: right;
+}
+
+.small_text{
+    font-size: 14px;
+}
+
+/* header */
+
+.hero_section{
+    position: relative;
+    top: 70px;
+}
+
+.hero_section_p{
+    width: 30%;
+    padding-right: 50px;
+}
+
+.hero_section_img{
+    width: 70%;
+    padding: 0 30px;
+}
+
+.hero_section_img img{
+    width: 100%;
+}
+
+.hero_section a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #0061FF;
+    line-height: 35px;
+    padding: 0 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;  
+}
+
+.fa-arrow-down{
+    font-size: 45px;
+    margin-top: 50px;
 }
