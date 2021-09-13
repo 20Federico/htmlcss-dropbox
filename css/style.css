@@ -178,7 +178,7 @@ footer {
 
 /* main */
 
-/* first section */
+/* 1st section */
 
 .form_container {
     padding-left: 15px;
@@ -190,26 +190,29 @@ footer {
     padding-right: 10px;
 }
 
-/* second section */
+/* 2nd section */
 
-.business_plan_row {
+.business_plan_row, .enterprise_plan_row{
     padding: 10px 15px;
 }
 
-.business_plan_container {
+.business_plan_container, .enterprise_plan_container {
     border: 1px solid lightgray;
+    margin-bottom: 30px;
 }
 
-.business_plan_type {
+.business_plan_type, .enterprise_plan_type {
     border-bottom: 1px solid lightgray;
     text-align: center;
     padding: 8px 0;
 }
 
-.business_plan_description {
+.business_plan_description, .enterprise_plan_description {
     padding: 30px 20px;
-    height: 1000px;
+}
 
+.business_plan_description {
+    height: 1000px;
 }
 
 .payment_description {
@@ -225,14 +228,17 @@ footer {
     line-height: 40px;
 }
 
-.try_for_free_btn {
+.try_for_free_btn, .contact_sales_office_btn {
     display: inline-block;
-    width: 100%;
     text-align: center;
     background-color: #0061FF;
     line-height: 35px;
     color: white;
     text-decoration: none;
+}
+
+.try_for_free_btn {
+    width: 100%;
     margin-bottom: 30px;
 }
 
@@ -250,4 +256,20 @@ footer {
     color: #0061FF;
 }
 
+/* 3rd section */
+
+.enterprise_plan_description {
+    position: relative;
+}
+
+.enterprise_plan_description p {
+    padding-top: 30px;
+}
+
+.contact_sales_office_btn {
+    padding: 0 50px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
 
