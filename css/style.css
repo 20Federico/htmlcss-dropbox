@@ -17,7 +17,6 @@ h1 {
 }
 h2 {
     font-size: 40px;
-    padding-left: 15px;
 }
 h3 {
     font-size: 25px;
@@ -26,6 +25,10 @@ h3 {
 h4, h5 {
     font-size: 16px;
     padding-bottom: 15px;
+}
+
+img {
+    width: 100%;
 }
 
 ul{
@@ -95,28 +98,8 @@ footer {
     margin: auto;
 }
 
-.col_1_9 {
-    width: calc(100% / 9);
-}
-
-.col_2_9 {
-    width: calc(100% / 9 * 2);
-}
-
 .col_3_9 {
     width: calc(100% / 9 * 3);
-}
-
-.col_4_9 {
-    width: calc(100% / 9 * 4);
-}
-
-.col_5_9 {
-    width: calc(100% / 9 * 5);
-}
-
-.col_6_9 {
-    width: calc(100% / 9 * 6);
 }
 
 /* utilities */
@@ -156,10 +139,6 @@ footer {
     padding: 0 30px;
 }
 
-.hero_section_img img {
-    width: 100%;
-}
-
 .hero_section a {
     display: inline-block;
     text-decoration: none;
@@ -181,7 +160,6 @@ footer {
 /* 1st section */
 
 .form_container {
-    padding-left: 15px;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -192,7 +170,7 @@ footer {
 
 /* 2nd section */
 
-.business_plan_row, .enterprise_plan_row{
+.row {
     padding: 10px 15px;
 }
 
@@ -273,3 +251,53 @@ footer {
     right: 20px;
 }
 
+/* 4th section */
+
+.dropbox_partner_img {
+    width: 60%;
+    padding-left: 20px;
+}
+
+.dropbox_partner_description {
+    width: 40%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.dropbox_partner_description p {
+    margin-bottom: 30px;
+}
+
+.find_partner_btn {
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    border: 1px solid black;
+}
+
+.partner.container {
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+
+/* 5th section */
+
+.features.row {
+    margin-top: 50px;
+}
+
+.features.container {
+    margin-bottom: 100px;
+}
+
+/* 6th section */
+
+.more_info.container h2 {
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.more_info.container a {
+    color: #0061FF;
+    padding-bottom: 30px;
+}
