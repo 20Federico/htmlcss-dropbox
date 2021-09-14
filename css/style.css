@@ -93,8 +93,6 @@ footer ul li a {
     line-height: 25px;
 }
 
-/**************************** id  ********************************/
-
 /**************************** class ******************************/
 
 /* layout */
@@ -185,6 +183,8 @@ footer ul li a {
 
 .row {
     padding: 10px 15px;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 .business_plan_container, .enterprise_plan_container {
@@ -268,7 +268,6 @@ footer ul li a {
 
 .dropbox_partner_img {
     width: 60%;
-    padding-left: 20px;
 }
 
 .dropbox_partner_description {
@@ -305,6 +304,10 @@ footer ul li a {
 
 /* 6th section */
 
+.more_info.container {
+    margin-bottom: 50px;
+}
+
 .more_info.container h2 {
     width: 60%;
     margin-bottom: 30px;
@@ -314,16 +317,93 @@ footer ul li a {
     color: #0061FF;
 }
 
+/* 7th section */
 
+.banner {
+    width: 100%;
+}
 
+.squares_container {
+    width: 28.5%;
+    height: 28vw;
+}
 
+.img_container {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.green {
+    background-color: #A2D39B;
+}
+.bordeaux {
+    background-color: #61082B;
+}
+.cyan {
+    background-color: #0093CE;
+}
+.red {
+    background-color: #FF1C1C;
+}
+.darkred {
+    background-color: #D5001F;
+}
+.lightblue {
+    background-color: #B4D0E7;
+}
+.blue {
+    background-color: #0D2481;
+}
+.yellow {
+    background-color: #FFD830;
+}
+.img_container img{
+    width: 50%;
+}
+
+.central_rectangle {
+    width: 43%;
+    height: 28vw;
+    background-color: #F5F5F5;
+    padding: 50px;
+    overflow: auto;
+}
+
+.central_rectangle img {
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+.central_rectangle hr {
+    width: 10%;
+    margin-bottom: 50px;
+    border-color: #E4E4E6;
+}
+
+.central_rectangle_description {
+    margin-bottom: 35px;
+}
+
+/* 8th section */
+
+.section_8th {
+    padding: 90px 0;
+}
+
+.section_8th h3 {
+    width: 40%;
+    color: #61082B;
+}
+
+.section_8th a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px 50px;
+}
 
 /* footer */
-
-.footer_content_container {
-    width: 80%;
-    margin: auto;
-}
 
 .footer_link_container {
     padding: 90px 0;
