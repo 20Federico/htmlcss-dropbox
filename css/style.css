@@ -77,7 +77,20 @@ main {
 }
 
 footer {
-    
+    background-color: black;
+    color: white;
+    margin-top: 70px;
+}
+
+footer section {
+    width: 20%;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
 }
 
 /**************************** id  ********************************/
@@ -299,5 +312,26 @@ footer {
 
 .more_info.container a {
     color: #0061FF;
-    padding-bottom: 30px;
+}
+
+
+
+
+
+/* footer */
+
+.footer_content_container {
+    width: 80%;
+    margin: auto;
+}
+
+.footer_link_container {
+    padding: 90px 0;
+}
+
+.lang_container {
+    width: 10%;
+    padding: 50px 0;
+    border-top: 1px solid white;
+    color: gray;
 }
