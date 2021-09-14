@@ -203,7 +203,7 @@ footer ul li a {
 }
 
 .business_plan_description {
-    height: 1000px;
+    min-height: 1000px;
 }
 
 .payment_description {
