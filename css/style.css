@@ -48,9 +48,11 @@ nav {
     background-color: white;
     z-index: 99;
 }
+
 nav li {
     display: inline-block;
 }
+
 nav li a {
     display: inline-block;
     text-decoration: none;
@@ -59,14 +61,21 @@ nav li a {
     vertical-align: middle;
     padding: 0 20px;
 }
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
 nav .float_left li:first-of-type a {
     padding-left: 0;
 }
+
 nav li a img {
     height: 30px;
     vertical-align: middle;
 }
-nav .float_right li:last-of-type a {
+
+.blue_btn {
     background-color: #0061FF;
     color: white;
 }
@@ -131,6 +140,19 @@ footer ul li a {
     font-size: 14px;
 }
 
+.blue_btn:hover {
+    text-decoration: none;
+    background-color: #67a0fc;
+}
+
+.white_btn:hover {
+    background-color: rgb(240, 239, 239);
+}
+
+.blue_link:hover {
+    text-decoration: none;
+}
+
 /* header */
 
 .hero_section {
@@ -162,6 +184,16 @@ footer ul li a {
 .fa-arrow-down {
     font-size: 45px;
     margin-top: 50px;
+    animation: arrow_down 1s linear alternate-reverse infinite;
+}
+
+@keyframes arrow_down {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(20px);
+    }
 }
 
 /* main */
@@ -296,6 +328,10 @@ footer ul li a {
     color: black;
     padding: 8px 15px;
     border: 1px solid black;
+}
+
+.find_partner_btn:hover {
+    border: 2px solid black;
 }
 
 .partner.container {
