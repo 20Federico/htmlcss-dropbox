@@ -97,7 +97,11 @@ footer ul li a {
     text-decoration: none;
     color: white;
     font-size: 14px;
-    line-height: 25px;
+    line-height: 30px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
 }
 
 /**************************** class ******************************/
@@ -207,6 +211,11 @@ footer ul li a {
 
 .form_container label {
     padding-right: 10px;
+}
+
+input[type=radio] {
+    margin-right: 5px;
+    transform: scale(1.5)
 }
 
 /* 2nd section */
@@ -506,3 +515,4 @@ footer ul li a {
     border-top: 1px solid white;
     color: gray;
 }
+
