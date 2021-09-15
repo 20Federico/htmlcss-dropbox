@@ -199,7 +199,7 @@ footer ul li a {
     padding: 8px 0;
 }
 
-.business_plan_description, .enterprise_plan_description {
+.business_plan_description {
     padding: 30px 20px;
 }
 
@@ -217,11 +217,16 @@ footer ul li a {
 }
 
 .business_plan_description ul {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .business_plan_description ul li{
-    line-height: 40px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+}
+
+.business_plan_description ul li .fas, .far{
+    margin-left: -20px;
 }
 
 .try_for_free_btn, .contact_sales_office_btn {
@@ -256,6 +261,7 @@ footer ul li a {
 
 .enterprise_plan_description {
     position: relative;
+    padding: 30px 20px;
 }
 
 .enterprise_plan_description p {
