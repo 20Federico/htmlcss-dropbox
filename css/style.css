@@ -51,13 +51,13 @@ nav {
 
 nav li {
     display: inline-block;
+    vertical-align: middle;
 }
 
 nav li a {
     display: inline-block;
     text-decoration: none;
     color: black;
-    line-height: 35px;
     vertical-align: middle;
     padding: 0 20px;
 }
@@ -70,18 +70,18 @@ nav .float_left li:first-of-type a {
     padding-left: 0;
 }
 
+nav .float_right li:last-of-type a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 nav li a img {
-    height: 30px;
+    height: 25px;
     vertical-align: middle;
 }
 
-.blue_btn {
-    background-color: #0061FF;
-    color: white;
-}
-
 main {
-   margin-top: 100px; 
+    margin-top: 100px; 
 }
 
 footer {
@@ -142,6 +142,11 @@ footer ul li a:hover {
 
 .small_text {
     font-size: 14px;
+}
+
+.blue_btn {
+    background-color: #0061FF;
+    color: white;
 }
 
 .blue_btn:hover {
